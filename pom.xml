@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.jdevs</groupId>
-  <artifactId>studentapp</artifactId>
+  <groupId>com.demo.maven-nexus</groupId>
+  <artifactId>java-test-app</artifactId>
   <version>2.5-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-rel/</url>
+            <url>http://13.232.100.77:8081/repository/Release-maven-nexus-Jenkins-pipeline/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-snap/</url>
+            <url>http://13.232.100.77:8081/repository/Snapshot-maven-nexus-Jenkins-pipeline/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
