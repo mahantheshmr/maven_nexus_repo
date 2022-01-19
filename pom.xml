@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://13.232.100.77:8081/repository/Release-maven-nexus-Jenkins-pipeline/</url>
+            <url>http://3.110.163.136:8081/repository/Release-maven-nexus-Jenkins-pipeline/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://13.232.100.77:8081/repository/Snapshot-maven-nexus-Jenkins-pipeline/</url>
+            <url>http://3.110.163.136:8081/repository/Snapshot-maven-nexus-Jenkins-pipeline/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
